@@ -21,3 +21,7 @@ add(5)
 add(7) #here value of a is 7 but value of b is default that is 0, untill specified.
 
 
+def working_on(user="root"):
+    print(f"\nLogged in as: {user}")
+    return None
+working_on("admin") #specify user as admin,spiderman,ironman to check
